@@ -29,6 +29,8 @@ header nav{
     text-align: center;
 }
 
+
+
 a:link, a:visited, a:active{
     text-decoration: none;
     color: blueviolet;
@@ -38,7 +40,6 @@ menu li{
     display: inline-block;
     padding: 1rem;
 }
-
 
 h1{
     display: block;
