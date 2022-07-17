@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;0,900;1,400;1,600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url(/alexander-startsev-ndNw_6QGR_c-unsplash.jpg) fixed;
+    background-size: cover;
+    background-position: center;
+
+    font-family: rubik, sans-serif;
+
+    --color: rgb(6, 6, 114);
+
+    color: var(--color);
+
+    
+
+    }
+
+main{
+    margin: 3rem;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    
+    }
+
+
+
+fieldset{
+    border: hidden;
+    padding: 2rem;
+}
+
+form input{
+    padding: 0.2rem;
+    }
+
+form textarea{
+    padding: 0.2rem;
+    width: 19rem;
+    height: 6rem;
+    overflow: auto;
+}
+
+form select{
+    padding: 0.2rem;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+menu{
+    padding: 1rem;
+}
+
+menu li{
+    display: inline;
+    padding: 1rem;
+}
+
+#entrega label{
+    display: block;
+    margin: 0.5rem;
+    padding-top: 0.7rem;
+    }
+
+#entrega input{
+    width: 19rem;
+}
+
+#entrega li{
+    list-style: none;
+}
+
+
