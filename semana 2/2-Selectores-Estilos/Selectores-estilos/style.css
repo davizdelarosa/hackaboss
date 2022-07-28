@@ -3,7 +3,7 @@
     padding: 0rem; 
     box-sizing: border-box; }
 
-.lista :nth-child(6){
+.lista :last-child{
     background-color: rgb(0, 0, 255);
 
 }
@@ -37,7 +37,7 @@
     content: "😎";
 }
 
-.lista :nth-child(4){
+.lista :lang(en){
     text-transform: uppercase;
     font-size: 200%;
 }

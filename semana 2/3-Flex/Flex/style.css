@@ -10,7 +10,7 @@
 
 body{
     min-height: 100vh;
-    background: url(/alexander-startsev-ndNw_6QGR_c-unsplash.jpg) fixed;
+    background-image: url(../img/hamburguesa.png) fixed;
     background-size: cover;
     background-position: center;
 
@@ -19,8 +19,6 @@ body{
     --color: rgb(6, 6, 114);
 
     color: var(--color);
-
-    
 
     }
 
@@ -35,7 +33,7 @@ main{
 
 
 fieldset{
-    border: hidden;
+    border: none;
     padding: 2rem;
 }
 
@@ -81,4 +79,11 @@ menu li{
     list-style: none;
 }
 
+form :nth-last-child(){
+    padding: 1rem;
+}
+
+#metodo h1{
+    padding-bottom: 2rem;
+}
 

@@ -9,8 +9,7 @@
   </head>
 
   <body>
-<!--     <img src="/alexander-startsev-ndNw_6QGR_c-unsplash.jpg" alt="fondo hamburguesa">
- -->    <main>
+  <main>
       <form action="#">
         <fieldset id="hamburguesa">
 
@@ -80,14 +79,14 @@
         </fieldset>
       
       
-        <fieldset id="pago">
-          <legend><h1>método de pago</h1></legend>
-          <select name="pago" id="pago" required>
-            <option hidden value="">Elige método</option>
-            <option>Tarjeta de crédito</option>
-            <option>Efectivo</option>
-            <option>Bizum</option>
-          </select>
+        <fieldset id="metodo">
+          <h1><label for="pago">Método de pago</label></h1>
+            <select name="pago" id="pago" required >
+              <option hidden value="">Elige método</option>
+              <option>Tarjeta de crédito</option>
+              <option>Efectivo</option>
+              <option>Bizum</option>
+            </select>
         </fieldset>
         <button type="submit">Enviar</button>
       </form>
