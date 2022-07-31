@@ -12,9 +12,9 @@ const people = {
   Alex: 10,
 };
 
-let peopleArr = Object.keys(people)
+/* let peopleArr = Object.keys(people) */
 
-for(let i = 0; i < peopleArr.length; i++){
+/* for(let i = 0; i < peopleArr.length; i++){
   
   let key = peopleArr[i]
 
@@ -25,4 +25,39 @@ for(let i = 0; i < peopleArr.length; i++){
     
     console.log(key + " es menor de edad.")
   }
+} */
+
+function mayorMenor(arrEdad){
+
+  let ageArr = Object.keys(arrEdad)
+
+  for(let i = 0; i < ageArr.length; i++){
+  
+    let key = ageArr[i]
+  
+    if((arrEdad[key]) > 18){
+  
+      console.log(key + " es mayor de edad.")
+    } else{
+      
+      console.log(key + " es menor de edad.")
+    }
+  }
+
+  
 }
+
+mayorMenor(people)
+
+
+const familia = {
+  Javi: 36,
+  Manu: 16,
+  Isabel: 9,
+  Pablo: 40,
+
+};
+
+console.log("")
+
+mayorMenor(familia)
