@@ -48,12 +48,14 @@ const puntuaciones = [
 
 equipoGana(puntuaciones.equipo, puntuaciones.puntos)
 
-let opio = (a, b)
+*/
 
-let suma = (a, b) => */
+puntuaciones.forEach((points) => console.log(parseInt(puntuaciones.puntos) ))
 
-function getWinnerLoser(arr){
-  console.log(arr)
-}
+/* const points = puntos.reduce((total, current) => total + current.puntos, 0)
 
-getWinnerLoser(puntuaciones)
+console.log(points) */
+
+  
+
+
