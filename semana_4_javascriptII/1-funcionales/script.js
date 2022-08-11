@@ -39,3 +39,23 @@ const puntuaciones = [
     puntos: [2, 3, 3, 4],
   },
 ];
+
+
+/* function equipoGana(equipos, puntuacion){
+  console.log(equipos, puntuaciones)
+
+}
+
+equipoGana(puntuaciones.equipo, puntuaciones.puntos)
+
+*/
+
+puntuaciones.forEach((points) => console.log(parseInt(puntuaciones.puntos) ))
+
+/* const points = puntos.reduce((total, current) => total + current.puntos, 0)
+
+console.log(points) */
+
+  
+
+
